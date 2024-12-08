@@ -1,0 +1,27 @@
+[
+    {
+      "id": "1",
+      "subtitle": "High-performance Laptop",
+      "name": "MacBook Pro 16",
+      "price": 2500,
+      "date": "2024-12-01T00:00:00.000Z",
+      "category": "Electronics"
+    },
+    {
+      "id": "2",
+      "subtitle": "Stylish Clothing",
+      "name": "Leather Jacket",
+      "price": 150,
+      "date": "2024-11-20T00:00:00.000Z",
+      "category": "Clothing"
+    },
+    {
+      "id": "3",
+      "subtitle": "Comfortable Chair",
+      "name": "Ergonomic Office Chair",
+      "price": 300,
+      "date": "2024-11-15T00:00:00.000Z",
+      "category": "Home & Kitchen"
+    }
+  ]
+  
