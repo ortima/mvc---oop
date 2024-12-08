@@ -1,0 +1,17 @@
+{
+  "name": "mvc---oop",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "format": "npx prettier . --write"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.1"
+  }
+}
