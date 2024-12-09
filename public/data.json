@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "subtitle": "High-performance Laptop",
+    "name": "MacBook Pro 16",
+    "price": 2500,
+    "date": "2024-12-01T00:00:00.000Z",
+    "category": "Electronics"
+  },
+  {
+    "id": "2",
+    "subtitle": "Stylish Clothing",
+    "name": "Leather Jacket",
+    "price": 150,
+    "date": "2024-11-20T00:00:00.000Z",
+    "category": "Clothing"
+  },
+  {
+    "id": "3",
+    "subtitle": "Comfortable Chair",
+    "name": "Ergonomic Office Chair",
+    "price": 300,
+    "date": "2024-11-15T00:00:00.000Z",
+    "category": "Home & Kitchen"
+  },
+  {
+    "id": "4",
+    "subtitle": "Smartphone with 5G",
+    "name": "Samsung Galaxy S24",
+    "price": 1200,
+    "date": "2024-12-05T00:00:00.000Z",
+    "category": "Electronics"
+  },
+  {
+    "id": "5",
+    "subtitle": "Leather Wallet",
+    "name": "Slim Bifold Wallet",
+    "price": 50,
+    "date": "2024-11-10T00:00:00.000Z",
+    "category": "Accessories"
+  },
+  {
+    "id": "6",
+    "subtitle": "Compact Blender",
+    "name": "Ninja Fit Blender",
+    "price": 80,
+    "date": "2024-11-25T00:00:00.000Z",
+    "category": "Home & Kitchen"
+  },
+  {
+    "id": "7",
+    "subtitle": "Noise-canceling Headphones",
+    "name": "Sony WH-1000XM5",
+    "price": 350,
+    "date": "2024-12-03T00:00:00.000Z",
+    "category": "Electronics"
+  },
+  {
+    "id": "8",
+    "subtitle": "Gaming Console",
+    "name": "PlayStation 5",
+    "price": 500,
+    "date": "2024-11-28T00:00:00.000Z",
+    "category": "Electronics"
+  },
+  {
+    "id": "9",
+    "subtitle": "Outdoor Adventure Shoes",
+    "name": "Merrell Moab 2",
+    "price": 120,
+    "date": "2024-11-18T00:00:00.000Z",
+    "category": "Footwear"
+  },
+  {
+    "id": "10",
+    "subtitle": "Portable Speaker",
+    "name": "JBL Flip 5",
+    "price": 100,
+    "date": "2024-12-02T00:00:00.000Z",
+    "category": "Electronics"
+  },
+  {
+    "id": "11",
+    "subtitle": "Compact Camera",
+    "name": "Canon EOS M50 Mark II",
+    "price": 700,
+    "date": "2024-11-30T00:00:00.000Z",
+    "category": "Electronics"
+  },
+  {
+    "id": "12",
+    "subtitle": "Gaming Mouse",
+    "name": "Logitech G502",
+    "price": 50,
+    "date": "2024-11-22T00:00:00.000Z",
+    "category": "Accessories"
+  },
+  {
+    "id": "13",
+    "subtitle": "Smartwatch",
+    "name": "Apple Watch Series 9",
+    "price": 400,
+    "date": "2024-11-29T00:00:00.000Z",
+    "category": "Electronics"
+  },
+  {
+    "id": "14",
+    "subtitle": "Winter Jacket",
+    "name": "Patagonia Down Sweater",
+    "price": 200,
+    "date": "2024-11-19T00:00:00.000Z",
+    "category": "Clothing"
+  },
+  {
+    "id": "15",
+    "subtitle": "Electric Toothbrush",
+    "name": "Philips Sonicare HX9330",
+    "price": 120,
+    "date": "2024-11-17T00:00:00.000Z",
+    "category": "Personal Care"
+  }
+]
