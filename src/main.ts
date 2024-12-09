@@ -1,42 +1,17 @@
-import { Card } from "./models/Card";
+import { CardController } from "./card/card.controller";
+import { CardModel } from "./card/card.model";
+import { CardView } from "./card/card.view";
 import "./style.css";
-import { ICardParams } from "./types";
 
-// TODO: loading state
-// разделить логику для MVC
-// TODO: добаить стили (мб подключить какой-то tailwind или UI готовый)
+const app = document.getElementById("app")!;
 
-const fetchCards = async (): Promise<Card[]> => {
-  return new Promise((resolve, reject) => {
-    setTimeout(async () => {
-      const response = await fetch("/data.json");
+function init() {
+  const model = new CardModel();
+  const view = new CardView(app);
 
-      if (!response.ok) {
-        reject(new Error("Failed while loading"));
-        return;
-      }
+  const controller = new CardController(model, view);
 
-      const data: ICardParams[] = await response.json();
+  controller.loadCards();
+}
 
-      resolve(data.map((item) => new Card(item)));
-    }, 500);
-  });
-};
-
-fetchCards()
-  .then((items) => {
-    const appContainer = document.querySelector<HTMLDivElement>("#app");
-
-    const list = document.createElement("ul");
-
-    items.forEach((item) => {
-      const listItem = document.createElement("li");
-      listItem.textContent = item.name;
-      list.appendChild(listItem);
-    });
-
-    if (appContainer) {
-      appContainer.appendChild(list);
-    }
-  })
-  .catch((err) => console.error(err));
+init();
